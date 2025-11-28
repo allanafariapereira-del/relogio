@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>O Relógio que Não Marca Horas</title>
+</head>
+<body>
+    <main>
+
+        <!-- PASSO 0 -->
+        <div class="passo ativo" id="passo-0">
+            <img src="img/relogio.jpg" alt="">
+            <p>Na biblioteca da escola, você encontra um relógio antigo escondido entre livros empoeirados. Ele não marca horas comuns… apenas símbolos. Dois botões brilham fracamente.</p>
+            <button class="btn-proximo" data-proximo="1">Botão do sol riscado</button>
+            <button class="btn-proximo" data-proximo="2">Botão da lua rachada</button>
+        </div>
+
+        <!-- PASSO 1 -->
+        <div class="passo" id="passo-1">
+            <p>Ao apertar o botão do sol riscado, o relógio emite um som metálico. A sala gela. O ponteiro gira sozinho e para no número “06”.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir o relógio até o porão</button>
+            <button class="btn-proximo" data-proximo="4">Tentar desligar o relógio</button>
+        </div>
+
+        <!-- PASSO 2 -->
+        <div class="passo" id="passo-2">
+            <p>A lua rachada ilumina o chão. Uma sombra passa atrás de você. O relógio mostra “23”.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir a sombra</button>
+            <button class="btn-proximo" data-proximo="6">Ir até a saída</button>
+        </div>
+
+        <!-- PASSO 3 -->
+        <div class="passo" id="passo-3">
+            <p>No porão, você encontra um mural mostrando várias horas do dia e, no centro, o mesmo relógio antigo.</p>
+            <button class="btn-proximo" data-proximo="7">Tocar o centro do mural</button>
+            <button class="btn-proximo" data-proximo="4">Subir novamente</button>
+        </div>
+
+        <!-- PASSO 4 - FINAL -->
+        <div class="passo" id="passo-4">
+            <img src="img/bibliotezc.jpg" alt="">
+            <p>Você tenta desligar o relógio, mas o tempo congela. Quando volta ao normal, a biblioteca está vazia... e o relógio sumiu. Às vezes, você ainda ouve um “tic” vindo do seu quarto.</p>
+        </div>
+
+        <!-- PASSO 5 -->
+        <div class="passo" id="passo-5">
+            <p>A sombra leva você até uma porta que nunca existiu ali antes.</p>
+            <button class="btn-proximo" data-proximo="7">Abrir a porta</button>
+            <button class="btn-proximo" data-proximo="8">Correr de volta</button>
+        </div>
+
+        <!-- PASSO 6 -->
+        <div class="passo" id="passo-6">
+            <p>Na saída da escola, o ponteiro trava em “00”. Uma voz atrás de você sussurra: “Ainda não é hora.”</p>
+            <button class="btn-proximo" data-proximo="5">Voltar para dentro</button>
+        </div>
+
+        <!-- PASSO 7 -->
+        <div class="passo" id="passo-7">
+            <img src="img/salaz.jpg" alt="">
+            <p>A porta revela uma sala cheia de relógios parados, exceto um igual ao seu — com um reflexo escuro dentro.</p>
+            <button class="btn-proximo" data-proximo="9">Tocar o reflexo</button>
+            <button class="btn-proximo" data-proximo="10">Virar o relógio ao contrário</button>
+        </div>
+
+        <!-- PASSO 8 -->
+        <div class="passo" id="passo-8">
+            <p>Você corre, mas o corredor se estica. As luzes apagam atrás de você. No final… o relógio está te esperando.</p>
+            <button class="btn-proximo" data-proximo="7">Pegar o relógio</button>
+        </div>
+
+        <!-- PASSO 9 - FINAL BOM -->
+        <div class="passo" id="passo-9">
+            <img src="img/OIP.webp" alt="">
+            <p>O reflexo desaparece e revela você mesmo — mais velho. “Você quebrou o ciclo”, ele diz. O relógio agora marca horas normais. É o fim… ou só o começo?</p>
+        </div>
+
+        <!-- PASSO 10 - FINAL SOMBRIO -->
+        <div class="passo" id="passo-10">
+            <p>Ao virar o relógio ao contrário, todos os relógios da sala despertam ao mesmo tempo. Você apaga. Quando acorda… está preso dentro do mural.</p>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

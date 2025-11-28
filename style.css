@@ -1,0 +1,57 @@
+szsbody {
+    font-family: "Bai Jamjuree", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #0d0d0d, #1a1a1a);
+    color: #eee;
+}
+
+main {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px 10px;
+}
+
+.passo {
+    display: none;
+    animation: fade 0.5s ease;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+@keyframes fade {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 12px 0;
+    padding: 14px 18px;
+    font-size: 16px;
+    background: #7a00ff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #a64dff;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
